@@ -26,6 +26,9 @@ public class LoginTest {
 		// Implicit wait
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
+
+/*Add comments to check Poll SCM*/
+
 		System.out.println("Title: " + driver.getTitle());
 		System.out.println("URL: " + driver.getCurrentUrl());
 		System.out.println("Success");
